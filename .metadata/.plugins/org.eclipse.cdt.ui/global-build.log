@@ -90,3 +90,52 @@ Finished building: default.size.stdout
  
 Finished building: Dev_Board_Blink_Opti.list
  
+14:41:28 **** Incremental Build of configuration Debug for project Dev_Board_Blink_Opti ****
+make -j8 all 
+arm-none-eabi-size  Dev_Board_Blink_Opti.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6052	     12	   1572	   7636	   1dd4	Dev_Board_Blink_Opti.elf
+Finished building: default.size.stdout
+ 
+14:54:40 **** Incremental Build of configuration Debug for project Dev_Board_Blink_Opti ****
+make -j8 all 
+arm-none-eabi-size  Dev_Board_Blink_Opti.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6052	     12	   1572	   7636	   1dd4	Dev_Board_Blink_Opti.elf
+Finished building: default.size.stdout
+ 
+14:56:02 **** Incremental Build of configuration Debug for project Dev_Board_Blink_Opti ****
+make -j8 all 
+arm-none-eabi-size  Dev_Board_Blink_Opti.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6052	     12	   1572	   7636	   1dd4	Dev_Board_Blink_Opti.elf
+Finished building: default.size.stdout
+ 
+14:56:05 **** Incremental Build of configuration Debug for project Dev_Board_Blink_Opti ****
+make -j8 all 
+arm-none-eabi-size  Dev_Board_Blink_Opti.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6052	     12	   1572	   7636	   1dd4	Dev_Board_Blink_Opti.elf
+Finished building: default.size.stdout
+ 
+14:57:37 **** Incremental Build of configuration Debug for project Dev_Board_Blink_Opti ****
+make -j8 all 
+arm-none-eabi-size  Dev_Board_Blink_Opti.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6052	     12	   1572	   7636	   1dd4	Dev_Board_Blink_Opti.elf
+Finished building: default.size.stdout
+ 
+14:58:52 **** Incremental Build of configuration Debug for project Dev_Board_Blink_Opti ****
+make -j8 all 
+arm-none-eabi-size  Dev_Board_Blink_Opti.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6052	     12	   1572	   7636	   1dd4	Dev_Board_Blink_Opti.elf
+Finished building: default.size.stdout
+ 
+14:59:12 **** Incremental Build of configuration Debug for project Dev_Board_Blink_Opti ****
+make -j8 all 
+arm-none-eabi-size  Dev_Board_Blink_Opti.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6052	     12	   1572	   7636	   1dd4	Dev_Board_Blink_Opti.elf
+Finished building: default.size.stdout
+ 

@@ -42,14 +42,6 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t btn_press = 0; // flag variable
-uint16_t  blink_delays[] ={
-		100,
-		250,
-		500
-};
-
-uint8_t blink_delay = 0;
 
 /* USER CODE END PV */
 
@@ -62,13 +54,7 @@ static void MX_GPIO_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 
-	if (GPIO_Pin == BTN_Pin ){
-		btn_press = 1;
-	}
-
-}
 /* USER CODE END 0 */
 
 /**
@@ -114,18 +100,13 @@ int main(void)
   {
 	  now = HAL_GetTick();
 
-	  if (now - LastTick > blink_delays[blink_delay]){
+	  if (now - LastTick > 2000){
 
 		  HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
 		  LastTick = now;
 	  }
 
-	  if (btn_press == 1 ){
-		  blink_delay ++;
-		  if (blink_delay >= sizeof(blink_delays) / sizeof(blink_delays[0])) blink_delay = 0 ;
 
-		  btn_press = 0;
-	  }
 
     /* USER CODE END WHILE */
 

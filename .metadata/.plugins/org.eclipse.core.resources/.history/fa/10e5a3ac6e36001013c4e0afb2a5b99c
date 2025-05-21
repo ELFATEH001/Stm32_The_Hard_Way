@@ -122,8 +122,9 @@ int main(void)
 
 	  if (btn_press == 1 ){
 		  blink_delay ++;
-		  if (blink_delay >= sizeof(blink_delays) / sizeof(blink_delays[0])) blink_delay = 0 ;
-
+		  if (blink_delay >= 3){
+			  blink_delay = 0 ;
+		  }
 		  btn_press = 0;
 	  }
 

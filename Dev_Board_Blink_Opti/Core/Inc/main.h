@@ -59,6 +59,7 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define BTN_Pin GPIO_PIN_4
 #define BTN_GPIO_Port GPIOE
+#define BTN_EXTI_IRQn EXTI4_IRQn
 #define LED_Pin GPIO_PIN_7
 #define LED_GPIO_Port GPIOA
 

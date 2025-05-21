@@ -44,9 +44,9 @@
 /* USER CODE BEGIN PV */
 uint8_t btn_press = 0; // flag variable
 uint16_t  blink_delays[] ={
-		100,
+		500,
 		250,
-		500
+		100
 };
 
 uint8_t blink_delay = 0;
@@ -122,7 +122,9 @@ int main(void)
 
 	  if (btn_press == 1 ){
 		  blink_delay ++;
-		  if (blink_delay >= sizeof(blink_delays) / sizeof(blink_delays[0])) blink_delay = 0 ;
+		  if (blink_delay >= 3){
+			  blink_delay = 0 ;
+		  }
 
 		  btn_press = 0;
 	  }

@@ -1,17 +1,10 @@
-19:09:06 **** Incremental Build of configuration Debug for project Dev_Board_Blink_Opti ****
+21:24:51 **** Incremental Build of configuration Debug for project Dev_Board_Blink_Opti ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Dev_Board_Blink_Opti.elf" @"objects.list"   -mcpu=cortex-m4 -T"F:\5 eme annee\PFE\TowardsTHE_Sky\Control Algo\Stm32_first hand\Stm32_The_Hard_Way\Dev_Board_Blink_Opti\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Dev_Board_Blink_Opti.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Dev_Board_Blink_Opti.elf
- 
 arm-none-eabi-size  Dev_Board_Blink_Opti.elf 
-arm-none-eabi-objdump -h -S Dev_Board_Blink_Opti.elf  > "Dev_Board_Blink_Opti.list"
    text	   data	    bss	    dec	    hex	filename
    6316	     20	   1572	   7908	   1ee4	Dev_Board_Blink_Opti.elf
 Finished building: default.size.stdout
  
-Finished building: Dev_Board_Blink_Opti.list
- 
 
-19:09:07 Build Finished. 0 errors, 0 warnings. (took 1s.348ms)
+21:24:51 Build Finished. 0 errors, 0 warnings. (took 713ms)
 
